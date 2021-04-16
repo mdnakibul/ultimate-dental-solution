@@ -22,7 +22,7 @@ const AddDoctor = () => {
         formData.append('name', info.name);
         formData.append('email', info.email);
         console.log(formData);
-        fetch('http://localhost:5000/addADoctor', {
+        fetch('https://sleepy-mountain-85887.herokuapp.com/addADoctor', {
             method: 'POST',
             body: formData
         })
@@ -32,6 +32,7 @@ const AddDoctor = () => {
             })
             .catch(error => {
                 console.log(error);
+                alert(error.message)
             })
     }
 
