@@ -1,0 +1,22 @@
+.header-container{
+    height: 100%;
+    position: relative;
+    background-image: url('../../../images/chair-bg.png');
+}
+.header-container::after{
+    position: absolute;
+    content: '';
+    width: 33%;
+    height: 100%;
+    background-color: #3A4256;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+}
+.theme-color{
+    color: #1cc7c1;
+}
+.theme-bg{
+    background-color: #1cc7c1;
+}

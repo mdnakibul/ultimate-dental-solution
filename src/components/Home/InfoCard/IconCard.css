@@ -1,0 +1,11 @@
+.icon-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon-box-left {
+    width: 20%;
+    font-size: 45px;
+    color: #fff;
+}

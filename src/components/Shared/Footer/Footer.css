@@ -1,0 +1,31 @@
+.footer-block ul{
+    padding-left: 0px;
+}
+.footer-block ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footer-block ul li a {
+    color: #666;
+    font-size: 18px;
+}
+ul.social-box li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 7px 0px 5px 11px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    height: 40px;
+    width: 40px;
+}
+ul.social-box li:hover{
+    background:#1cc7c1;
+    transition:all 0.5s;
+}
+ul.social-box li:hover a{
+    color:#fff;
+}
+ul.social-box li a{
+    color : #1cc7c1
+}

@@ -1,0 +1,8 @@
+.make-appointment{
+    margin-top: 170px;
+}
+.make-appointment .container{
+    background: linear-gradient(0deg, rgba(71, 79 ,98 , 0.8), rgba(71, 79 ,98 , 0.9)), url('../../../images/appointment.png');
+    max-height: 300px;
+
+}
