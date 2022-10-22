@@ -22,7 +22,7 @@ const Dashboard = () => {
     }
 
     useEffect(()=>{
-        fetch('https://sleepy-mountain-85887.herokuapp.com/appointmentsByDate',{
+        fetch('https://ultimate-dental-solution-server.vercel.app/appointmentsByDate',{
             method : 'POST',
             headers : {'Content-Type' : 'application/json'},
             body : JSON.stringify({date : selectedDate, email: loggedInUser.email})

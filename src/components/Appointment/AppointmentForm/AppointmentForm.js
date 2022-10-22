@@ -21,7 +21,7 @@ const AppointmentForm = ({ modalIsOpen, closeModal,appointmentOn , date}) => {
         data.date = date.toDateString();
         data.created = new Date();
         console.log(data);
-        fetch('https://sleepy-mountain-85887.herokuapp.com/addAppointment',{
+        fetch('https://ultimate-dental-solution-server.vercel.app/addAppointment',{
             method : 'POST',
             headers : {
                 'Content-Type' : 'application/json'

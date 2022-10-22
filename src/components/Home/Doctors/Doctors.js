@@ -3,7 +3,7 @@ import DoctorDetails from '../DoctorDetails/DoctorDetails';
 const Doctors = () => {
     const [doctors, setDoctors] = useState([])
     useEffect( () => {
-        fetch('https://sleepy-mountain-85887.herokuapp.com/doctors')
+        fetch('https://ultimate-dental-solution-server.vercel.app/doctors')
         .then(res => res.json())
         .then(data => setDoctors(data))
     }, [])

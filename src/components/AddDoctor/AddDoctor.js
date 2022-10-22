@@ -22,7 +22,7 @@ const AddDoctor = () => {
         formData.append('name', info.name);
         formData.append('email', info.email);
         console.log(formData);
-        fetch('https://sleepy-mountain-85887.herokuapp.com/addADoctor', {
+        fetch('https://ultimate-dental-solution-server.vercel.app/addADoctor', {
             method: 'POST',
             body: formData
         })
